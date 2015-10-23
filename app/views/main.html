@@ -1,0 +1,43 @@
+<div class="intro-old">
+	<h1>Trijeet Mukhopadhyay</h1>
+	<p>I design and build things.</p>
+	<p>I'm a product designer located in the Bay Area. I'm currently pursuing a major in Computer Science at Stanford University, with a concentration in Human Computer Interaction, along with a side of music and product design. Here is a <a href="assets/resume.pdf" target="_blank">piece of paper</a> about me.</p>
+	<div class="social">
+		<a href="https://www.linkedin.com/in/trijeetm" target="_blank" class="si si-linkedin"></a>
+		<a href="https://www.twitter.com/trijeetm" target="_blank" class="si si-twitter"></a>
+		<a href="https://www.facebook.com/trijeet" target="_blank" class="si si-facebook"></a>
+		<a href="https://github.com/trijeetm" target="_blank" class="si si-github"></a>
+		<a href="https://soundcloud.com/trijeet-mukhopadhyay" target="_blank" class="si si-soundcloud"></a>
+	</div>
+</div>
+
+<div class="intro">
+	<div class="brand">
+  	<h1>Trijeet</h1>
+  	<h1>Mukhopadhyay</h1>
+  	<div class="social">
+  		<a href="https://www.linkedin.com/in/trijeetm" target="_blank" class="si si-linkedin"></a>
+  		<a href="https://www.twitter.com/trijeetm" target="_blank" class="si si-twitter"></a>
+  		<a href="https://www.facebook.com/trijeet" target="_blank" class="si si-facebook"></a>
+  		<a href="https://github.com/trijeetm" target="_blank" class="si si-github"></a>
+  		<a href="https://soundcloud.com/trijeet-mukhopadhyay" target="_blank" class="si si-soundcloud"></a>
+  	</div>
+	</div>
+	<div class="text">
+		<p>I design and build things.</p>
+		<p>I'm currently pursuing a major in Computer Science at Stanford University, with a concentration in <a href="http://hci.stanford.edu/" target="_blank">Human Computer Interaction</a>, along with a side of music and product design. Here is a <a href="assets/resume.pdf" target="_blank">piece of paper</a> about me.</p>
+	</div>
+</div>
+
+<div class="portfolio">
+	<div class="grid">
+		<a class="grid-item {{piece.category}}" ng-repeat="piece in portfolioPieces | orderBy: 'id'" on-repeat-end collection="portfolioPieces" href="{{piece.link}}" target="{{piece.target}}">
+			<img ng-src="{{piece.image}}">
+			<div class="meta">
+				<span class="title">{{piece.title}}</span>
+				<span class="desc">{{piece.desc}}</span>
+				<span class="time">{{piece.time}}</span>
+			</div>
+		</a>
+	</div>
+</div>
