@@ -31,6 +31,22 @@ html {
   color: #444;
 }
 
+.text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.text-secondary {
+  font-size: 0.75rem;
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #888;
+}
+
 .wf-loading {
   opacity: 0;
   transition: all 1s;
@@ -173,7 +189,7 @@ a {
     }
   }
 
-  .text {
+  .blurb {
     width: 2 * $col;
     border-left: 1px solid salmon;
     padding-left: 1rem;
@@ -181,13 +197,9 @@ a {
     padding-bottom: 0.3rem;
 
     p {
-      font-weight: 400;
-      font-size: 1rem;
-      line-height: 1.5;
+      @extend .text;
       min-width: 33%;
       max-width: 35rem;
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem;
     }
 
     p:first-child {
@@ -200,23 +212,19 @@ a {
   }
 }
 
-.intro-old {
-  display: none;
+.banner {
+  margin-top: 3rem;
 
-  p {
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.5;
-    min-width: 33%;
-    max-width: 35rem;
-    margin-top: 1rem;
-  }
-
-  h1 {
-    font-family: "freight-sans-pro", sans-serif;
-    font-weight: 700;
-    font-size: 2.4rem;
-    line-height: 1.4;
-    color: #111;
+  hr {
+    border: 0;
+    height: 0;
+    border-top: 3px solid salmon;
+    width: calc(12.5% - 2rem);
+      // for responsive
+        width: calc(16.5% - 2rem);
+        // width: calc(50% - 2rem);
+        // width: calc(100% - 2rem);
+    width: 6rem;
+    margin-bottom: 1rem;
   }
 }
