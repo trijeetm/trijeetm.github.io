@@ -62,7 +62,7 @@ angular.module('trijeetmcomApp')
   			desc: 'UI / UX Design; iOS Prototyping',
   			time: 'Fall \'14',
   			category: 'project',
-        link: 'http://stanford.edu/class/cs147/projects/creation/flow/',
+        link: 'http://hci.stanford.edu/courses/cs147/2014/au/projects/creation/flow/',
         target: '_blank'
   		},
       {

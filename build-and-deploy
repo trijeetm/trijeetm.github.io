@@ -1,0 +1,18 @@
+# Build
+grunt build
+
+# Copy over resources ingnored by grunt
+cp -r app/assets dist/
+cp -r app/styles/76d-social-icons dist/styles
+
+# Preview dist
+open dist/index.html
+
+# Deploy
+echo "Are you ready to deploy?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) git subtree push --prefix dist origin master; break;;
+        No ) exit;;
+    esac
+done
