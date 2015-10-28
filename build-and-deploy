@@ -8,6 +8,10 @@ cp -r app/styles/76d-social-icons dist/styles
 # Preview dist
 open dist/index.html
 
+# Add latest dist/
+git add dist
+git commit -m "Added latest dist"
+
 # Deploy
 echo "Are you ready to deploy?"
 select yn in "Yes" "No"; do
