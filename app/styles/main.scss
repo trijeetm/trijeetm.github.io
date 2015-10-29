@@ -167,7 +167,9 @@ html {
         bottom: 0;
         background: rgba(0, 0, 0, 0.8);
         width: 100%;
-        padding: 0.5rem;
+        padding: 0.6rem;
+        padding-top: 0.55rem;
+        padding-bottom: 0.7rem;
         font-family: "freight-sans-pro", sans-serif;
         text-align: left;
 
@@ -176,20 +178,23 @@ html {
           font-size: 1rem;
           font-weight: 600;
           display: block;
-          color: #fefefe;
+          color: #ffffff;
+          margin-bottom: 0.2rem;
         }
 
         .desc {
           font-size: 0.75rem;
+          text-transform: uppercase;
           font-weight: 500;
           display: inline-block;
-          color: #fefefe;
+          color: #ffffff;
           float: left;
         }
 
         .time {
           @extend .desc;
           float: right;
+          text-transform: capitalize;
         }
       }
     }
@@ -218,7 +223,7 @@ a {
   @media #{$break-mobile} {
     flex-wrap: wrap;
     margin: 0.2rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
 
   @media #{$break-desktop} {
