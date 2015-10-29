@@ -3,6 +3,7 @@
 
 @import "compass/typography/vertical_rhythm";
 
+$break-mobile-small: "(max-width: 320px)";
 $break-mobile: "(max-width: 800px)";
 $break-desktop: "(min-width: 801px)";
 $break-small: "(min-width: 801px) and (max-width: 1150px)";
@@ -29,6 +30,10 @@ $break-large: "(min-width: 1526px)";
 
 html {
   font-size: 18px;
+  @media #{$break-mobile-small} {
+    font-size: 17px;
+  }
+
   font-family: "freight-text-pro", serif;
   color: #444;
 }
