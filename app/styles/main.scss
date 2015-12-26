@@ -10,6 +10,8 @@ $break-small: "(min-width: 801px) and (max-width: 1150px)";
 $break-medium: "(min-width: 1151px) and (max-width: 1525px)";
 $break-large: "(min-width: 1526px)";
 
+$accent-color: salmon;
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -44,6 +46,7 @@ html {
   line-height: 1.5;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  color: #444;
 }
 
 .text-secondary {
@@ -149,6 +152,7 @@ html {
       text-align: center;
       vertical-align: middle;
       border: 1px solid #eee;
+      border-bottom: 3px solid #eee;
       position: relative;
 
       img {
@@ -159,18 +163,18 @@ html {
       
       &:hover {
         .meta {
-          background: rgba(0, 0, 0, 0.95);
+          background: rgba(256, 256, 256, 1);
         }
       }
 
       .meta {
         position: absolute;
         bottom: 0;
-        background: rgba(0, 0, 0, 0.8);
+        background: rgba(254, 254, 254, 0.975);
+        border-top: 1px solid #eee;
         width: 100%;
         padding: 0.6rem;
         padding-top: 0.55rem;
-        padding-bottom: 0.7rem;
         font-family: "freight-sans-pro", sans-serif;
         text-align: left;
 
@@ -179,7 +183,7 @@ html {
           font-size: 1rem;
           font-weight: 600;
           display: block;
-          color: #ffffff;
+          color: #555;
           margin-bottom: 0.2rem;
         }
 
@@ -188,7 +192,7 @@ html {
           text-transform: uppercase;
           font-weight: 500;
           display: inline-block;
-          color: #ffffff;
+          color: #999;
           float: left;
         }
 
@@ -205,12 +209,12 @@ html {
 a {
   text-decoration: none;
   color: #333;
-  color: salmon;
+  color: $accent-color;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
   transition: border-bottom 0.25s;
 
   &:hover {
-    border-bottom: 1px solid salmon;
+    border-bottom: 1px solid $accent-color;
     transition: border-bottom 0.25s;
   }
 }
@@ -260,6 +264,7 @@ a {
   .blurb {
     @media #{$break-mobile} {
       width: 100%;
+      margin-top: 1rem;
     }
 
     @media #{$break-small} {
@@ -274,21 +279,17 @@ a {
       width: calc(25% * 2);
     }
 
-    @media #{$break-mobile} {
-      margin-top: 1rem;
-    }
-
     @media #{$break-desktop} {
-      border-left: 1px solid salmon;
-      padding-left: 1rem;
-      padding-top: 0.3rem;
-      padding-bottom: 0.3rem;
+      // border-left: 1px solid $accent-color;
+      // padding-left: 1rem;
+      // padding-top: 0.2rem;
+      // padding-bottom: 0.2rem;
     }
 
     p {
       @extend .text;
       min-width: 33%;
-      max-width: 35rem;
+      max-width: calc(100% - 2rem);
     }
 
     p:first-child {
@@ -313,7 +314,7 @@ a {
     display: inline-block;
 
     &:hover {
-      color: salmon;
+      color: $accent-color;
     }
   }
 }
@@ -324,7 +325,7 @@ a {
   hr {
     border: 0;
     height: 0;
-    border-top: 3px solid salmon;
+    border-top: 3px solid $accent-color;
     width: 6rem;
     margin-bottom: 1rem;
   }
