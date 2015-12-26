@@ -6,7 +6,7 @@ open dist/index.html
 
 # Add latest dist/
 git add dist
-git commit -m "Added latest dist"
+git commit -m "Deploying latest dist"
 
 # Deploy
 echo "Are you ready to deploy?"
