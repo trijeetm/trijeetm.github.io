@@ -31,14 +31,14 @@ angular.module('trijeetmcomApp')
         image: 'images/coursera1.png',
         desc: 'Product Design; UX Research',
         category: 'project',
-        link: 'assets/coursera-report.pdf',
-        target: '_blank'
+        link: '#/coursera',
+        target: ''
       },
   		{
   			id: 5,
   			title: 'Sonic Canvas',
   			image: 'images/sonic-canvas.png',
-  			desc: 'UX Design; Product Engineering',
+  			desc: 'UX Design; App Development',
   			category: 'project',
         link: 'https://ccrma.stanford.edu/~trijeetm/sonic-canvas/',
         target: '_blank'
@@ -47,55 +47,55 @@ angular.module('trijeetmcomApp')
   			id: 3,
   			title: 'Flow',
   			image: 'images/flow.png',
-  			desc: 'UI / UX Design; iOS Prototyping',
+  			desc: 'UI / UX Design',
   			category: 'project',
-        link: 'http://hci.stanford.edu/courses/cs147/2014/au/projects/creation/flow/',
-        target: '_blank'
+        link: '#/flow',
+        target: ''
   		},
       {
         id: 7,
         title: 'Fingerboard',
-        image: 'images/fb0.png',
+        image: 'images/fingerboard-long.png',
         desc: 'Product Design; Audio Engineering',
         category: 'project',
-        link: 'https://github.com/trijeetm/Fingerboard',
-        target: '_blank'
+        link: '#/fingerboard',
+        target: ''
       },
       {
         id: 8,
         title: 'Binaural Man',
         image: 'images/binaural-man.png',
-        desc: 'Game Design; iOS Engineering',
+        desc: 'Game Design & development',
         category: 'project',
-        link: 'https://github.com/trijeetm/BinauralMan',
-        target: '_blank'
+        link: '#/binaural-man',
+        target: ''
       },
       {
         id: 9,
         title: 'Alan\'s Psychedelic Breakfast',
         image: 'images/asb-cover.png',
-        desc: 'Audio Processing; Data Visualization',
+        desc: 'Data Visualization',
         category: 'project',
-        link: 'https://ccrma.stanford.edu/~trijeetm/alan\'s-psychedelic-breakfast/',
-        target: '_blank'
+        link: '#/apb',
+        target: ''
       },
   		{
   			id: 10,
   			title: 'Ba-dum-tss!',
-  			image: 'images/badumtss-cover.png',
+  			image: 'images/badumtss-mockup.png',
   			desc: 'Interaction Design; Audio Engineering',
   			category: 'project',
-        link: 'https://ccrma.stanford.edu/~trijeetm/ba-dum-tss/',
-        target: '_blank'
+        link: '#/badumtss',
+        target: ''
   		},
   		{
   			id: 11,
   			title: 'L\'accompanier',
-  			image: 'images/accomp.png',
-  			desc: 'Product Design; Audio Engineering',
+  			image: 'images/accomp-display.png',
+  			desc: 'Product Design & Engineering',
   			category: 'project',
-        link: 'https://ccrma.stanford.edu/~trijeetm/l\'accompanier/',
-        target: '_blank'
+        link: '#/accompanier',
+        target: ''
   		}
   	];
 

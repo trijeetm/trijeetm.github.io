@@ -6,13 +6,12 @@
   	<div class="social display-desktop">
   		<a href="https://www.linkedin.com/in/trijeetm" target="_blank" class="si si-linkedin"></a>
   		<a href="https://www.twitter.com/trijeetm" target="_blank" class="si si-twitter"></a>
-  		<a href="https://www.facebook.com/trijeet" target="_blank" class="si si-facebook"></a>
   		<a href="https://github.com/trijeetm" target="_blank" class="si si-github"></a>
   		<a href="https://soundcloud.com/trijeet-mukhopadhyay" target="_blank" class="si si-soundcloud"></a>
   	</div>
 	</div>
 	<div class="blurb">
-		<p>Designer and engineer based in the Bay Area. Studying computer science at <a href="http://www.stanford.edu/" target="_blank">Stanford University</a>, with a side of music and product design. Organizing <a href="https://www.treehacks.com/" target="_blank">TreeHacks</a>. Previously, software engineering intern at <a href="https://www.bebop.co/" target="_blank">bebop</a>, and UI / UX design intern at <a href="http://eagerpanda.com/" target="_blank">EagerPanda</a>.</p>
+		<p>Designing and building things in the Bay Area. Studying computer science at <a href="http://www.stanford.edu/" target="_blank">Stanford University</a>, with a side of music and product design. Organizing <a href="https://www.treehacks.com/" target="_blank">TreeHacks</a>. Previously, software engineering intern at <a href="https://www.bebop.co/" target="_blank">bebop</a>, and UI / UX design intern at <a href="http://eagerpanda.com/" target="_blank">EagerPanda</a>.</p>
 		<p>Here is a <a href="assets/resume.pdf" target="_blank">piece of paper</a> about me.</p>
 	</div>
 	<div class="social display-mobile">
@@ -26,7 +25,7 @@
 
 <div class="portfolio">
 	<div class="grid">
-		<a class="grid-item {{piece.category}}" ng-repeat="piece in portfolioPieces | orderBy: 'id'" on-repeat-end collection="portfolioPieces" href="{{piece.link}}" target="{{piece.target}}">
+		<a class="grid-item {{piece.category}}" ng-repeat="piece in portfolioPieces | orderBy: 'id'" on-repeat-end collection="portfolioPieces" ng-href="{{piece.link}}" target="{{piece.target}}">
 			<img ng-src="{{piece.image}}">
 			<div class="meta">
 				<span class="title">{{piece.title}}</span>
@@ -36,7 +35,7 @@
 	</div>
 </div>
 
-<div class="banner">
+<div class="footer">
 	<hr>
-	<p>I love making things with people. Contact me at <a href="mailto:trijeetm@gmail.com">trijeetm@gmail.com</a>.</p>
+	<p>Want to work on something interesting? Contact me at <a href="mailto:trijeetm@gmail.com">trijeetm@gmail.com</a>.</p>
 </div>

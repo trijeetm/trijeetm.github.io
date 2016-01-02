@@ -6,6 +6,13 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- social icons -->
+    <link rel="stylesheet" href="styles/76d-social-icons/assets/css/main.css">
+    <link rel="stylesheet" href="styles/76d-social-icons/assets/css/social-icons.css">
+    <!-- animate -->
+    <link rel="stylesheet" href="styles/animate/animate.css">
+    
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <!-- endbower -->
@@ -13,9 +20,7 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-    <!-- social icons -->
-    <link rel="stylesheet" href="styles/76d-social-icons/assets/css/main.css">
-    <link rel="stylesheet" href="styles/76d-social-icons/assets/css/social-icons.css">
+
 
     <!-- typekit -->
     <script src="https://use.typekit.net/yhu8kit.js"></script>
@@ -26,7 +31,7 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div ng-view="app" class="app container"></div>
+    <div ng-view="app" class="app container" autoscroll="true"></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>
@@ -57,6 +62,7 @@
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/directives/onrepeatend.js"></script>
     <script src="scripts/controllers/coursera.js"></script>
+    <script src="scripts/controllers/flow.js"></script>
     <!-- endbuild -->
   </body>
 </html>
