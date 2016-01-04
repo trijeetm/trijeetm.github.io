@@ -40,8 +40,8 @@ angular.module('trijeetmcomApp')
   			image: 'images/sonic-canvas.png',
   			desc: 'UX Design; App Development',
   			category: 'project',
-        link: 'https://ccrma.stanford.edu/~trijeetm/sonic-canvas/',
-        target: '_blank'
+        link: '#/sonic-canvas',
+        target: ''
   		},
   		{
   			id: 3,
