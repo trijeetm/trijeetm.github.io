@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Project-Page" sketch:type="MSArtboardGroup" transform="translate(-1210.000000, -98.000000)" fill="#737578" opacity="0.201434235">
+            <path d="M1237.07125,123.3 C1237.56,123.7875 1237.56,124.5875 1237.07125,125.075 C1236.58375,125.5625 1235.79125,125.5625 1235.3025,125.075 L1230.0075,119.775 L1224.675,125.1125 C1224.1825,125.6 1223.385,125.6 1222.8925,125.1125 C1222.40125,124.6125 1222.40125,123.8125 1222.8925,123.325 L1228.225,117.9875 L1222.93,112.7 C1222.44125,112.2125 1222.44125,111.4125 1222.93,110.925 C1223.41625,110.4375 1224.20875,110.4375 1224.6975,110.925 L1229.9925,116.225 L1235.365,110.85 C1235.8575,110.3625 1236.65375,110.3625 1237.14625,110.85 C1237.6375,111.35 1237.6375,112.1375 1237.14625,112.6375 L1231.775,118.0125 L1237.07125,123.3 L1237.07125,123.3 Z M1230,98 C1218.95375,98 1210,106.95 1210,118 C1210,129.05 1218.95375,138 1230,138 C1241.04625,138 1250,129.05 1250,118 C1250,106.95 1241.04625,98 1230,98 L1230,98 Z" id="Close" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
