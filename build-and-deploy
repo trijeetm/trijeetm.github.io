@@ -1,3 +1,6 @@
+# Make sure right nvm is in use
+nvm use
+
 # Build
 grunt build
 
